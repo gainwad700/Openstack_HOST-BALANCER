@@ -2,7 +2,7 @@
         #ZONES=$(openstack compute service list --service nova-compute -f value -c Zone)
 
          # MySQL connection parameters
-         DB_HOST="opst-devcluster1.intra"
+         DB_HOST="cluster1"
          DB_NAME="hostbalancer"
          TABLE_NAME="hostbalancer"
 
